@@ -1,0 +1,344 @@
+html {
+    font-family: "Roboto", "sans-serif", "Times New Roman";
+    background-color: #e4e4e4a8;
+}
+
+/* CSS FOR NAVIGATION TOOL */
+
+nav { 
+    height: 120px;
+    width: 100%;
+    top: 0px;
+}
+
+.sidenav a {
+    position:absolute;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #000000;
+}
+  
+.icon {
+    position: absolute;
+    top: 18px;
+    left: 20px; 
+}
+
+.home {
+    top: 20px;
+    left: 120px; 
+}
+
+/* WILL BE ADDING THSE BACK INTO THE WEBSITE AFTER THEY ARE REBUILT */
+.resume {
+    top: 47px;
+    left: 120px;
+}
+
+.contact {
+    top: 74px;
+    left: 120px;
+}
+
+.nameFound {
+    font-size: 25px;
+    background-color: #cec9c3;
+}
+
+.numStyle {
+    background-color: #e98181;
+}
+
+.assignmentTitle {
+    text-align:center;
+    font-size: 30px;
+}
+
+/* CSS FOR CONTAINERS */
+
+.container-1 div, .container-2 div, .container-3 div {
+    font-size: 18px;
+
+  }
+
+.container-1 {
+    margin: auto;
+    width: 60%;
+    margin-top: 10%;
+    padding: 0;
+}
+
+
+.container-1-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+    margin-top: 10%;
+    padding: 0;
+    background-color: #bbbbbb; 
+}
+
+.container-1-footer .socialmedia {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 60%;
+    margin-top: 0%;
+    padding: 0;
+}
+
+.box-1 {
+    flex: 1;
+    min-width: 350px;
+    flex-direction: row;
+    font-size: 21px;
+    max-width: 100%;
+}
+
+
+.box-2 {
+    flex: 1;
+    min-width: 200px;
+    text-align: left;
+    max-width: 35%;
+}
+
+.box-3 {
+    flex: 1;
+    min-width: 340px;
+    text-align: left;
+    background-color: #cacaca;
+}
+
+/* CSS FOR ARRAY LAYOUT SECTION */
+.box-1 .arrayLayout {
+    text-align: left;
+    font-size: 21px;
+    display:flex;
+    align-items: center;
+}
+
+
+/* CSS FOR FRAMEWORK CONTENT */
+
+.box-1 .framework {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 30px; }
+  
+.box-1 .frameworktext {
+    text-align: center; 
+    font-size: 20px;
+}
+
+/* CSS FOR SOCIAL MEDIA SECTION */
+
+.box-1 .socialmedia {
+    text-align: right; 
+}
+
+
+.buttonLayout {
+    height: 200px;
+}
+
+#arrayLinksOut a:hover{
+    background-color:#e98181;
+}
+
+ul.part1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.assignmentTitle {
+    text-align: center;
+    background-color:#e98181;
+}
+
+#projectTitle {
+    font-size: 50px;
+}
+
+.playerName {
+    text-align: center;
+    padding: 50px;
+}
+
+.studentToolBox {
+    position: relative; 
+    display: inline-block;
+    place-content: center; 
+}
+
+.thankYou {
+    text-align: center;
+}
+
+#studentToolHover {
+    display: none;
+    position: absolute;
+    z-index: auto;
+    top: -70px;
+    left: 30px;
+    background: #6ea7b6;
+    padding: 10px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 2px;
+    animation: fadeIn 0.6s;
+    width: 100px;
+}
+.studentToolBox button {
+    border: none;
+    background-color:  rgb(204, 219, 237);
+}
+
+#submitError {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    color:red;
+    text-align: center;
+}
+
+.submitBox {
+    width:100px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submitButton {
+    background-color: #bbbbbb;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#popup{
+    display: none;
+    background-color: #e98181;
+    width: 260px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 100px;
+}
+
+
+#startButton {
+    background-color: #377490;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#restartButton {
+    background-color: #377490;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#stopAnimationButton {
+    background-color: #377490;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+#close-pop-up {
+    text-align: right;
+    background-color: #0ae4cb;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+img.defaultSize{
+    width: 350px;
+}
+
+p.itemName {
+    margin: 0px;
+    letter-spacing: 0.5em;
+    font-size:15px;
+    background-color: #dbdbdb;
+}
+
+#currentPlayerPoints img {
+    width: 50px;
+    height: auto;
+}
+
+#currentCpuPoints img {
+    width: 50px;
+    height: auto;
+}
+
+#defaultImage {
+    width: 50px;
+    height: 50px;
+}
+
+#defaultImage2 {
+    width: 50px;
+    height: 50px;
+}
+
+#diceImg img{
+    width: 50px;
+    height: auto;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* DEVICE STYLES
+@media screen and (max-width: 1000px) {
+    /* HIDE THE BIG LOGO WHEN THE WEBSITE IS TOO SMALL */
+    /* .logobig {
+        display: none;
+    }
+}
+  
+  @media screen and (min-width: 1000px) {
+    /* SHOW BIG LOGO WHEN THE WEBSITE IS LARGE */
+    /* .logobig {
+        display: block;
+    }
+} */

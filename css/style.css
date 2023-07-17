@@ -1,0 +1,205 @@
+html {
+  font-family: "Roboto", "sans-serif", "Times New Roman";
+  background-color: rgba(228, 228, 228, 0.6588235294);
+}
+
+#projectTitle {
+  font-size: 50px;
+  background-color: #bbbbbb;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+#playerGameResult, #cpuGameResult {
+  background-color: #e98181;
+  text-align: center;
+}
+
+nav {
+  height: 120px;
+  width: 100%;
+  top: 0px;
+}
+
+.sidenav a {
+  position: absolute;
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: #000000;
+}
+
+.icon {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+
+.home {
+  top: 20px;
+  left: 120px;
+}
+
+.resume {
+  top: 47px;
+  left: 120px;
+}
+
+.contact {
+  top: 74px;
+  left: 120px;
+}
+
+.container-1 div, .container-2 div, .container-3 div {
+  font-size: 20px;
+}
+
+.container-1 {
+  margin: auto;
+  width: 70%;
+  margin-top: 10%;
+  padding: 0;
+}
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 70%;
+  margin-top: 0%;
+  padding: 0;
+}
+
+.box-1 {
+  flex: 1;
+  min-width: 350px;
+  flex-direction: row;
+  font-size: 21px;
+  max-width: 100%;
+}
+
+.box-2 {
+  flex: 1;
+  min-width: 40%;
+  text-align: left;
+  max-width: 50%;
+}
+
+.box-1 .arrayLayout {
+  text-align: left;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.container-1-footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 70%;
+  margin-top: 10%;
+  padding: 0;
+  background-color: #bbbbbb;
+}
+
+.container-1-footer .socialMedia {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonLayout {
+  height: 200px;
+}
+
+#startButton {
+  background-color: #377490;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#restartButton {
+  background-color: #5f8190;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#stopAnimationButton {
+  background-color: #5f8190;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#startAnimationButton {
+  background-color: #5f8190;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#ruleToolHover {
+  display: none;
+  position: relative;
+  z-index: auto;
+  background: #6ea7b6;
+  padding: 10px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 2px;
+  animation: fadeIn 0.6s;
+}
+
+.ruleToolBox button {
+  border: none;
+  background-color: #e98181;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+img .defaultSize {
+  width: 350px;
+}
+
+#currentPlayerPoints img {
+  width: 50px;
+  height: 50px;
+}
+
+#currentCpuPoints img {
+  width: 50px;
+  height: 50px;
+}
+
+#defaultImage {
+  width: 50px;
+  height: 50px;
+}
+
+#defaultImage2 {
+  width: 50px;
+  height: 50px;
+}
+
+#diceAnimation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}

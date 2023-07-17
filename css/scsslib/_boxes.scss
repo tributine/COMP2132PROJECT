@@ -1,0 +1,68 @@
+.container-1, .container-2, .container-3 {
+    div {
+        font-size: 20px;
+    }
+}
+
+// Container-1, this houses 1 box grid content
+.container-1 {
+    margin: auto;
+    width: 70%;
+    margin-top: 10%;
+    padding: 0;
+}
+
+// Container-2, this houses 2 box grid content
+.container-2 {
+    display: flex;
+    flex-wrap : wrap;
+    margin: auto;
+    width: 70%;
+    margin-top: 0%;
+    padding: 0;
+}
+
+// Box-1, content box to use 100% width of container
+.box-1 {
+    flex: 1;
+    min-width: 350px;
+    flex-direction: row;
+    font-size: 21px;
+    max-width: 100%;
+}
+
+// Box-2, content to use 50% of width of container
+.box-2 {
+    flex: 1;
+    min-width: 40%;
+    text-align: left;
+    max-width: 50%;
+}
+
+// CSS for Array Layout
+.box-1 {
+    .arrayLayout {
+        text-align: left;
+        font-size: 21px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+// Footer container
+.container-1-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+    margin-top: 10%;
+    padding: 0;
+    background-color: $footer-color
+}
+
+.container-1-footer {
+    .socialMedia {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

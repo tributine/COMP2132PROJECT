@@ -1,0 +1,50 @@
+.buttonLayout {
+    height: 200px;
+}
+
+// Mixing for buttons to play with
+@mixin button($buttoncolor: $button-color) {
+    background-color: $buttoncolor;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#startButton {
+    @include button;
+}
+
+// Restart, stop and start have different button shades
+#restartButton {
+    @include button($buttoncolor: #5f8190);
+}
+
+#stopAnimationButton {
+    @include button($buttoncolor: #5f8190);
+}
+
+#startAnimationButton {
+    @include button($buttoncolor: #5f8190);
+}
+
+
+
+#ruleToolHover {
+    display: none;
+    position: relative;
+    z-index: auto;
+    background: #6ea7b6;
+    padding: 10px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 2px;
+    animation: fadeIn 0.6s;
+}
+.ruleToolBox button {
+    border: none;
+    @include button($niceRed-color);
+
+}

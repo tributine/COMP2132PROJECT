@@ -1,0 +1,35 @@
+nav {
+    height: 120px;
+    width: 100%;
+    top: 0px;
+}
+
+.sidenav {
+    a {
+      position: absolute;
+      text-decoration: none;
+      letter-spacing: 3px;
+      color: #000000;
+    }
+  }
+
+.icon {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+
+.home {
+    top: 20px;
+    left: 120px;
+}
+
+.resume {
+    top: 47px;
+    left: 120px;
+}
+
+.contact {
+    top: 74px;
+    left: 120px;
+}

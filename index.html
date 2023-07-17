@@ -1,0 +1,82 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>christopher | Final Project Dice Game</title>
+        <meta name="author" content="Christopher Wong, Student ID: A00847417">
+        <meta name="Final Project Christopher Wong" content="2132 Javascript Final Project">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css" type="text/css"> <!--HREF CSS--> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> <!--ONLINE GOOGLE FONT--> 
+        <script src="./script/project.js" defer></script> <!--JAVSCRIPT DEFER USAGE WITH SCRIPT-->
+        <script src="./script/jquery-3.7.0.js"></script> <!--JQUERY JS-->
+    </head>
+    <body>
+        <nav> <!--NAVIGATION BURGER--> 
+            <div class="icon">
+                <a href="./index.html" id="menu">
+                    <img src="https://img.icons8.com/dotty/80/000000/full-moon.png" alt="doubleUpArrow">
+                </a>
+            </div>
+            <div class="sidenav">
+                <a href="./index.html" class="home"><B>HOME</B></a>
+                <a href="./index.html" class="resume"><b><del>RESUME</del> WIP</b></a>
+                <a href="./index.html" class="contact"><b><del>CONTACT</del> WIP</b></a>
+            </div>
+        </nav>
+        <main>
+            <div class="container-1"> <!-- This container contains the project title, and default dice frame animation -->
+                <div id="projectTitle">
+                </div>
+                <p id="diceAnimation">
+                    <img id="defaultImage"></img>
+                    <img id="defaultImage2"></img>
+                </p>
+            </div>
+            <div class="container-2"> 
+                <div class="box-2"> <!-- This box contains the points for player and game result -->
+                    <div class="arrayLayout">
+                        <p id="currentPlayerPoints"></p>
+                        <p id="playerPoints"></p>
+                        <p id="playerGameResult"></p>
+                    </div>
+                </div>
+                <div class="box-2"> <!-- This box contains the points for CPU -->
+                    <div class="arrayLayout"> 
+                        <p id="currentCpuPoints"></p>
+                        <p id="cpuPoints"></p>
+                        <p id="cpuGameResult"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-2">
+                <div class="box-1"> <!-- This box contains the user interaction buttons for gameplay and animations -->
+                    <div class="buttonLayout">
+                        <button id="startButton" type="button">Start</button>
+                        <button id="restartButton" type="button">Restart</button>
+                        <button id="stopAnimationButton" type="button">Stop Animation</button>
+                        <button id="startAnimationButton" type="button">Start Animation</button>
+                        <span class="ruleToolBox"> 
+                            <button id="ruleToolButton" type="button">Instructions and Rules</button>
+                            <!--<button id="ruleToolButton" type="button"><img width="154" height="47" src="https://img.icons8.com/ios/50/help--v1.png" alt="help--v1"/></button> -->
+                            <div id="ruleToolHover">s</div> <!-- INLINE TOOL TIP FOR STUDENT ID -->
+                        </span>
+                        <p id="playerOut"></p>
+                       
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container-1-footer"> <!-- This is a box for social media links in the document footer -->
+                <div class="socialMedia"> <!--SOCIAL MEDIA LINKS-->
+                    <a href="https://www.linkedin.com/in/wongcharwin/"><img src="https://img.icons8.com/windows/32/000000/linkedin.png" alt="linkedinlogo"></a>
+                    <a href="https://github.com/tributine"><img src="https://img.icons8.com/windows/32/000000/github.png" alt="githublogo"></a>
+                    <a href="https://twitter.com/ChristophCodes"><img src="https://img.icons8.com/windows/32/000000/twitter.png" alt="twitterlogo"></a>
+                    <a href="https://www.instagram.com/christoki/"><img src="https://img.icons8.com/windows/32/000000/instagram-new.png" alt="iglogo"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

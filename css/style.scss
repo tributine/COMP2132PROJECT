@@ -1,0 +1,33 @@
+// global use css variables for sass compiler
+@import "./scsslib/variables";
+
+html {
+    font-family: $font-stack;
+    background-color: $background-color;
+}
+
+#projectTitle {
+    font-size: 50px;
+    background-color: #bbbbbb;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#playerGameResult, #cpuGameResult{
+    background-color: $niceRed-color;
+    text-align: center;
+}
+
+// Import css for navigation bar 
+@import "./scsslib/nav";
+
+// Import css for containers, boxes and grid
+@import "./scsslib/boxes";
+
+// Import css for buttons
+@import "./scsslib/buttons";
+
+// Import css for image resizing
+@import "./scsslib/images";
+
+

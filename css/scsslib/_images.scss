@@ -1,0 +1,39 @@
+img {
+    .defaultSize {
+        width: 350px;
+    }
+}
+
+@mixin imageFormat($imageWidth:50px,$imageHeight:50px) {
+    width: $imageWidth;
+    height: $imageHeight;
+}
+
+#currentPlayerPoints {
+    img {
+        @include imageFormat;
+    }
+}
+
+#currentCpuPoints {
+    img {
+        @include imageFormat;
+    }
+}
+
+#defaultImage {
+    @include imageFormat;
+}
+
+#defaultImage2 {
+    @include imageFormat;
+}
+
+#diceAnimation {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+
+}
+
